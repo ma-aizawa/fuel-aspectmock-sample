@@ -12,17 +12,8 @@
 		<server name="FUEL_ENV" value="test"/>
 	</php>
 	<testsuites>
-		<testsuite name="core">
-			<directory suffix=".php">../core/tests</directory>
-		</testsuite>
-		<testsuite name="packages">
-			<directory suffix=".php">../packages/*/tests</directory>
-		</testsuite>
 		<testsuite name="app">
 			<directory suffix=".php">../app/tests</directory>
-		</testsuite>
-		<testsuite name="modules">
-			<directory suffix=".php">../app/modules/*/tests</directory>
 		</testsuite>
 	</testsuites>
 </phpunit>
