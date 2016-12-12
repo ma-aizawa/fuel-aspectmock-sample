@@ -21,7 +21,8 @@
     "require-dev": {
         "fuel/docs": "1.8.*",
         "codeception/aspect-mock": "2.*",
-        "phpunit/phpunit" : "*"
+        "phpunit/phpunit" : "*",
+        "psy/psysh" : "*"
     },
     "suggest": {
         "dwoo/dwoo" : "Allow Dwoo templating with the Parser package",
