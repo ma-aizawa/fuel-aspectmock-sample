@@ -20,7 +20,7 @@
     },
     "require-dev": {
         "fuel/docs": "1.8.*",
-        "codeception/aspect-mock": "1.*",
+        "codeception/aspect-mock": "2.*",
         "phpunit/phpunit" : "*"
     },
     "suggest": {
