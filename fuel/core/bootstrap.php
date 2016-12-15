@@ -25,6 +25,7 @@ require COREPATH.'base.php';
 // define the core classes to the autoloader
 setup_autoloader();
 
+
 // setup the composer autoloader
 get_composer();
 
@@ -323,6 +324,8 @@ function setup_autoloader()
 
 		'Fuel\\Core\\View'                             => COREPATH.'classes/view.php',
 		'Fuel\\Core\\Viewmodel'                        => COREPATH.'classes/viewmodel.php',
+
+    'Fuel\\Core\\Locator'                          => COREPATH.'classes/locator.php',
 	));
 };
 

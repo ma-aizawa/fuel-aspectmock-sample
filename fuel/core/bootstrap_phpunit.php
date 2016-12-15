@@ -58,6 +58,11 @@ if (class_exists('AspectMock\Kernel'))
 
 	// Load in the Fuel autoloader
 	$kernel->loadFile(COREPATH.'classes'.DIRECTORY_SEPARATOR.'autoloader.php');
+
+  require_once COREPATH . 'classes'. DIRECTORY_SEPARATOR . 'locator.php';
+  \Go\ParserReflection\ReflectionEngine::init(
+    new \Fuel\Core\Locator()
+  );
 }
 else
 {
