@@ -17,4 +17,9 @@ class Hoge extends \Fuel\Core\Model
   {
     return "hoge";
   }
+
+  public function getHogeList()
+  {
+    return self::HOGE_LIST;
+  }
 }

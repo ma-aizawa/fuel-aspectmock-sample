@@ -17,6 +17,12 @@ class HogeTest extends \PHPUnit\Framework\TestCase
     $this->assertEquals('fuga', \Model\Hoge\Hoge::staticHoge());
   }
 
+  public function testGetHogeList()
+  {
+    $model = new \Model\Hoge\Hoge();
+    $this->assertEquals(['first' => 'hoge', 'second' => 'fuga'], $model->getHogeList());
+  }
+
   protected function tearDown()
   {
     test::clean();
